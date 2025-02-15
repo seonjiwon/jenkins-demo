@@ -7,13 +7,13 @@ import org.springframework.web.servlet.view.JstlView;
 
 @Configuration
 public class SpringConfig {
-
-    @Bean
-    public InternalResourceViewResolver viewResolver() {
-        InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
-        viewResolver.setViewClass(JstlView.class);
-        viewResolver.setPrefix("/WEB-INF/views/");
-        viewResolver.setSuffix(".jsp");
-        return viewResolver;
-    }
+//
+//    @Bean
+//    public InternalResourceViewResolver viewResolver() {
+//        InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
+//        viewResolver.setViewClass(JstlView.class);
+//        viewResolver.setPrefix("/WEB-INF/views/");
+//        viewResolver.setSuffix(".jsp");
+//        return viewResolver;
+//    }
 }
