@@ -1,4 +1,4 @@
-CI/CD 파이프 라인 공부를 위한 Dump Code
+CI/CD 파이프 라인 공부를 위한 Dummy Code
 
 # Pipeline
 
